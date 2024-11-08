@@ -1,0 +1,22 @@
+name: model-training-env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - torch==2.2.1
+      - opencv-python==4.7.0.72
+      - PyQt5==5.15.10
+      - numpy==1.24.4
+      - pandas
+      - matplotlib
+      - torchvision
+      - pillow
+      - scikit-learn
+      - scikit-image
+      - ipykernel
+      - jupyter
+      - seaborn
+      - ultralytics
+      - timm

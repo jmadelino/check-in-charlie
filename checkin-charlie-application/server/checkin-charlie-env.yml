@@ -1,0 +1,20 @@
+name: checkin-charlie-env
+channels:
+  - defaults
+dependencies:
+  - python
+  - pip
+  - pip:
+      - torch
+      - timm
+      - flask
+      - opencv-python
+      - Flask-Cors
+      - ultralytics
+      - flask-socketio
+      - pydub
+      - faster-whisper
+      - openai
+      - numpy
+      - google-cloud-dialogflow
+      - python-dotenv
